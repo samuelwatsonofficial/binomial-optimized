@@ -1,6 +1,6 @@
 [package]
-name = "dream"
-version = "0.1.0"
+name = "binomial-optimized"
+version = "0.2.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -9,3 +9,5 @@ edition = "2021"
 num-bigint = "0.4.3"
 num-rational = "0.4.0"
 num-traits = "0.2.14"
+rayon = "1.5.3"
+concurrent-queue = "1.2.2"
